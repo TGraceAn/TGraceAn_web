@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Portfolio - Thien An NGUYEN</title>
+    
+    <!-- Tailwind CSS (Styling) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Icons (Lucide) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-slate-900 selection:bg-blue-100 selection:text-blue-900">
+
+    <!-- NAVIGATION -->
+    <nav class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-sm shadow-sm py-3 transition-all">
+        <div class="max-w-6xl mx-auto px-6 flex justify-between items-center">
+            <!-- Your Name Logo -->
+            <a href="#" class="font-bold text-xl tracking-tight text-slate-800">
+                Thien An<span class="text-blue-600">.</span>
+            </a>
+
+            <!-- Menu Links -->
+            <div class="hidden md:flex space-x-8">
+                <a href="#about" class="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">About</a>
+                <a href="#education" class="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Education</a>
+                <a href="#publications" class="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Publications</a>
+                <a href="#experience" class="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Experience</a>
+                <a href="#projects" class="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Projects</a>
+                <a href="#teaching" class="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Teaching</a>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- HERO SECTION (About You) -->
+    <section id="about" class="pt-32 pb-20 px-6 max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center gap-12">
+        <div class="flex-1 space-y-6">
+            <div>
+                <h2 class="text-blue-600 font-semibold tracking-wide uppercase text-sm mb-2">Profile</h2>
+                
+                <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 tracking-tight mb-4">
+                    Thien An NGUYEN
+                </h1>
+                
+                <div class="flex items-center text-slate-600 text-lg mb-2">
+                    <i data-lucide="graduation-cap" class="w-5 h-5 mr-2"></i>
+                    MSc Student in Data Science | AI Engineer
+                </div>
+                
+                <div class="flex items-center text-slate-500 mb-6">
+                    <i data-lucide="building-2" class="w-5 h-5 mr-2"></i>
+                    USTH / INP Toulouse | eUp Group
+                </div>
+            </div>
+            
+            <p class="text-slate-600 leading-relaxed text-lg max-w-xl">
+                I am a graduate student pursuing MSc degrees in Data Science at USTH and INP Toulouse. I am also working at eUp Group as an AI Engineer. I love to do research and am passionate about 
+                <strong>Generative Models, Audio/Speech Models, NLP, Computational Creativity, and On-device Models</strong>. 
+                I aim to contribute meaningfully to the academic communitywhile furthering my intellectual growth and professional development.
+            </p>
+            <div class="flex space-x-4 pt-2">
+                <a href="mailto:nguyenthienan1162003@gmail.com" class="p-2 text-slate-500 hover:text-blue-600 hover:bg-blue-50 rounded-full transition-all">
+                    <i data-lucide="mail" class="w-5 h-5"></i>
+                </a>
+                <a href="https://github.com/TGraceAn" target="_blank" class="p-2 text-slate-500 hover:text-blue-600 hover:bg-blue-50 rounded-full transition-all">
+                    <i data-lucide="github" class="w-5 h-5"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/thien-an-nguyen-5325a61a7/" target="_blank" class="p-2 text-slate-500 hover:text-blue-600 hover:bg-blue-50 rounded-full transition-all">
+                    <i data-lucide="linkedin" class="w-5 h-5"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- PROFILE PHOTO -->
+        <div class="relative">
+            <div class="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-white shadow-2xl ring-1 ring-slate-100 bg-slate-200">
+                <img src="files/TA_profile.jpg" alt="Thien An Nguyen" class="w-full h-full object-cover" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="py-16 px-6 max-w-6xl mx-auto">
+        <h3 class="text-2xl font-bold text-slate-900 mb-8 flex items-center">
+            <div class="w-2 h-8 bg-blue-600 mr-4 rounded-sm"></div>
+            Education
+        </h3>
+        <div class="grid md:grid-cols-2 gap-8">
+            
+            <!-- Degree 1 -->
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <h4 class="text-lg font-bold text-slate-900">MSc in Data Science</h4>
+                <div class="text-blue-600 font-medium mb-1"><a href="https://usth.edu.vn" target="_blank" rel="noopener noreferrer" class="hover:underline">University of Science and Technology of Hanoi</a></div>
+                <div class="text-sm text-slate-500 mb-2 font-mono">Sep 2024 - <strong>Present</strong></div>
+                <p class="text-slate-600 text-sm">GPA: 15.04/20 (~3.57/4.0)</p>
+            </div>
+
+            <!-- Degree 2 -->
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <h4 class="text-lg font-bold text-slate-900">MSc in Data Science</h4>
+                <div class="text-blue-600 font-medium mb-1"><a href="https://www.inp-toulouse.fr/en/index.html" target="_blank" rel="noopener noreferrer" class="hover:underline">INP Toulouse</a></div>
+                <div class="text-sm text-slate-500 mb-2 font-mono">Sep 2024 - <strong>Present</strong></div>
+                <div class="mt-3 text-sm text-slate-600 bg-white p-3 rounded-lg border border-slate-200">
+                    <p class="font-semibold text-slate-800 mb-1">Double Degree Program</p>
+                    <p>Program in partnership with USTH. Coursework completed at the USTH campus.</p>
+                </div>
+            </div>
+
+            <!-- Degree 3 (BSc) -->
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 md:col-span-2">
+                <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-2">
+                    <div>
+                        <h4 class="text-lg font-bold text-slate-900">BSc in ICT</h4>
+                        <div class="text-blue-600 font-medium mb-1"><a href="https://usth.edu.vn" target="_blank" rel="noopener noreferrer" class="hover:underline">University of Science and Technology of Hanoi</a></div>
+                    </div>
+                    <div class="text-sm text-slate-500 font-mono bg-white px-3 py-1 rounded-full border border-slate-200 w-fit">Sep 2021 - Aug 2024</div>
+                </div>
+                <p class="text-slate-600 text-sm mt-3">GPA: 16.24/20 (~3.61/4.0)</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PUBLICATIONS SECTION -->
+    <section id="publications" class="pt-24 pb-8 px-6 max-w-6xl mx-auto">
+        <h3 class="text-2xl font-bold text-slate-900 mb-8 flex items-center">
+            <div class="w-2 h-8 bg-blue-600 mr-4 rounded-sm"></div>
+            Publications
+        </h3>
+
+        <div class="group relative bg-white border-l-4 border-blue-600 p-6 rounded-r-2xl shadow-sm hover:shadow-md transition-all duration-300 mb-6">
+            <div class="flex flex-col md:flex-row justify-between gap-4 mb-3">
+                <h4 class="text-lg font-bold text-slate-900 leading-snug group-hover:text-blue-600 transition-colors">
+                    Structure-Aware Multi-Teacher Distillation via Reinforcement Learning for Few-Shot Open-Set Keyword Spotting
+                </h4>
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-amber-100 text-amber-800 whitespace-nowrap h-fit self-start">
+                    Under Review
+                </span>
+            </div>
+            <div class="text-slate-600 mb-2 text-sm">
+                Tung X. Nguyen*, <span class="font-bold text-slate-900">Thien An Nguyen*</span>, Hoang-Tung Tran
+                <span class="ml-2 text-slate-400 text-xs font-normal">(*Equal Contribution)</span>
+            </div>
+            <div class="text-sm text-slate-500 italic mb-4">
+                Submitted to IEEE ICASSP 2026
+            </div>
+            <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+            </p>
+            <div class="flex flex-wrap gap-3 mt-4">
+                <a href="https://drive.google.com/file/d/1v9tAahbT5Lq4GQKrbJ6eHyyAls2suOhy/view?usp=sharing" target="_blank" class="inline-flex items-center px-4 py-2 bg-slate-100 rounded-lg text-sm font-medium text-slate-600 hover:bg-blue-600 hover:text-white transition-all">
+                    <i data-lucide="file-text" class="w-4 h-4 mr-2"></i> PDF
+                </a>
+            </div>
+        </div>
+    </section>    
+
+    <!-- NEWS SECTION -->
+    <section id="news" class="py-12 px-6 max-w-6xl mx-auto bg-slate-50 rounded-3xl my-8">
+        <h3 class="text-2xl font-bold text-slate-900 mb-6 flex items-center">
+            <div class="w-2 h-8 bg-blue-600 mr-4 rounded-sm"></div>
+            Recent Updates
+        </h3>
+        <div class="space-y-4">
+            <div class="flex items-start">
+                <span class="font-mono text-sm text-blue-600 font-bold min-w-[100px] pt-1">Feb 2025</span>
+                <span class="text-slate-700">Started as Research Assistant at ICT Lab working on on-device open-set KWS.</span>
+            </div>
+            <div class="flex items-start">
+                <span class="font-mono text-sm text-blue-600 font-bold min-w-[100px] pt-1">Jan 2025</span>
+                <span class="text-slate-700">Joined eUp Group as an AI Engineer working on Mazii and Migii products.</span>
+            </div>
+            <div class="flex items-start">
+                <span class="font-mono text-sm text-blue-600 font-bold min-w-[100px] pt-1">Sep 2024</span>
+                <span class="text-slate-700">Enrolled in MSc Data Science (USTH and INP Toulouse).</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESEARCH EXPERIENCE SECTION -->
+    <section id="experience" class="py-16 px-6 max-w-6xl mx-auto">
+        <h3 class="text-2xl font-bold text-slate-900 mb-8 flex items-center">
+            <div class="w-2 h-8 bg-blue-600 mr-4 rounded-sm"></div>
+            Research Experience
+        </h3>
+        <div class="space-y-10 relative border-l-2 border-slate-200 ml-3 pl-8 py-2">
+            
+            <!-- Research Job 1 -->
+            <div class="relative">
+                <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-white border-4 border-blue-600"></div>
+                <h4 class="text-lg font-bold text-slate-900">Research Assistant</h4>
+                <div class="text-blue-600 font-medium mb-1">
+                    <a href="https://ictlab.usth.edu.vn" target="_blank" rel="noopener noreferrer" class="hover:underline">ICT Lab - University of Science and Technology of Hanoi</a>
+                </div>
+                <div class="text-sm text-slate-500 mb-3 font-mono">Feb 2025 - <strong>Present</strong></div>
+                <ul class="list-disc list-outside ml-4 text-slate-600 text-sm space-y-1">
+                    <li>Working on on-device open-set Keyword Spotting (KWS).</li>
+                    <li>Implemented distillation from large models and RL for multi-teacher distillation.</li>
+                </ul>
+            </div>
+
+            <!-- Research Job 2 -->
+            <div class="relative">
+                <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-slate-200 border-4 border-white ring-2 ring-slate-200"></div>
+                <h4 class="text-lg font-bold text-slate-900">Research Intern</h4>
+                <div class="text-blue-600 font-medium mb-1">
+                    <a href="https://l3i.univ-larochelle.fr" target="_blank" rel="noopener noreferrer" class="hover:underline">L3i Lab - La Rochelle University, France</a>
+                </div>
+                <div class="text-sm text-slate-500 mb-3 font-mono">Apr 2024 - Jul 2024</div>
+                <ul class="list-disc list-outside ml-4 text-slate-600 text-sm space-y-1">
+                    <li>Researched Computational Creativity in Music Generation.</li>
+                    <li>Proposed methods for handling Music Semantics and designed Transformer-based models for Symbolic Music Generation.</li>
+                </ul>
+            </div>
+
+            
+
+        </div>
+    </section>
+
+    <!-- INDUSTRIAL EXPERIENCE SECTION -->
+    <section id="industrial" class="py-8 px-6 max-w-6xl mx-auto">
+        <h3 class="text-2xl font-bold text-slate-900 mb-8 flex items-center">
+            <div class="w-2 h-8 bg-purple-600 mr-4 rounded-sm"></div>
+            Industrial Experience
+        </h3>
+        <div class="space-y-10 relative border-l-2 border-slate-200 ml-3 pl-8 py-2">
+            
+            <!-- Ind Job 1 -->
+            <div class="relative">
+                <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-white border-4 border-purple-600"></div>
+                <h4 class="text-lg font-bold text-slate-900">AI Engineer</h4>
+                <div class="text-purple-600 font-medium mb-1">
+                    <a href="https://eupgroup.net" target="_blank" rel="noopener noreferrer" class="hover:underline">eUp Group</a>
+                </div>
+                <div class="text-sm text-slate-500 mb-3 font-mono">Jan 2025 - <strong>Present</strong></div>
+                <ul class="list-disc list-outside ml-4 text-slate-600 text-sm space-y-1">
+                    <li>Engineering AI solutions for flagship products Mazii and Migii.</li>
+                    <li>Implementing RAG, LLM-based explanations, and on-device translation.</li>
+                </ul>
+            </div>
+
+            <!-- Ind Job 2 -->
+            <div class="relative">
+                <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-slate-200 border-4 border-white ring-2 ring-slate-200"></div>
+                <h4 class="text-lg font-bold text-slate-900">Generative AI Developer</h4>
+                <div class="text-purple-600 font-medium mb-1">
+                    <a href="https://amela.vn" target="_blank" rel="noopener noreferrer" class="hover:underline">Amela Technology</a>
+                </div>
+                <div class="text-sm text-slate-500 mb-3 font-mono">Nov 2024 - Jan 2025</div>
+                <ul class="list-disc list-outside ml-4 text-slate-600 text-sm space-y-1">
+                    <li>Researched OCR for Japanese handwriting and VLM/RAG/Diffusion models.</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="py-16 px-6 max-w-6xl mx-auto bg-white">
+        <h3 class="text-2xl font-bold text-slate-900 mb-8 flex items-center">
+            <div class="w-2 h-8 bg-blue-600 mr-4 rounded-sm"></div>
+            Projects
+        </h3>
+        <div class="grid md:grid-cols-2 gap-6">
+
+            <!-- Project 1: Migii-JLPT -->
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:border-purple-200 hover:shadow-md transition-all">
+                <div class="flex justify-between items-start mb-2">
+                    <h4 class="text-lg font-bold text-slate-900">Migii-JLPT</h4>
+                    <span class="bg-purple-100 text-purple-700 text-xs px-2 py-1 rounded-full font-medium">AI Engineering</span>
+                </div>
+                <p class="text-slate-600 text-sm mb-4">
+                    Built AI agents for explaining Japanese questions in multiple languages and generating difficulty-adaptive exercises for learners.
+                </p>
+                <div class="flex flex-wrap gap-2 text-xs font-mono text-purple-600">
+                    <span class="bg-purple-50 px-2 py-1 rounded">LLMs</span>
+                    <span class="bg-purple-50 px-2 py-1 rounded">Generation</span>
+                </div>
+            </div>
+
+            <!-- Project 2: Mazii -->
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm hover:border-purple-200 hover:shadow-md transition-all">
+                <div class="flex justify-between items-start mb-2">
+                    <h4 class="text-lg font-bold text-slate-900">Mazii</h4>
+                    <span class="bg-purple-100 text-purple-700 text-xs px-2 py-1 rounded-full font-medium">AI Engineering</span>
+                </div>
+                <p class="text-slate-600 text-sm mb-4">
+                    Developed AI features for personalized dictionary lookup using RAG (Retrieval-Augmented Generation) and text embeddings to enhance search relevance.
+                </p>
+                <div class="flex flex-wrap gap-2 text-xs font-mono text-purple-600">
+                    <span class="bg-purple-50 px-2 py-1 rounded">RAG</span>
+                    <span class="bg-purple-50 px-2 py-1 rounded">Embeddings</span>
+                    <span class="bg-purple-50 px-2 py-1 rounded">NLP</span>
+                </div>
+            </div>
+
+            <!-- Project 3: DaiJazz -->
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-md transition-all">
+                <h4 class="text-lg font-bold text-slate-900 mb-2">DaiJazz (Music Generation)</h4>
+                <div class="text-sm text-slate-500 italic mb-4">Apr 2024 - Jul 2024 | Researcher</div>
+                <p class="text-slate-600 text-sm mb-4">
+                    Built an AI model to generate music autonomously and assistive. Processed MIDI data, built tokenizers, and utilized Relative-Attention Transformers and GPT-2.
+                </p>
+                <div class="flex flex-wrap gap-2 text-xs font-mono text-blue-600">
+                    <span class="bg-blue-50 px-2 py-1 rounded">PyTorch</span>
+                    <span class="bg-blue-50 px-2 py-1 rounded">Transformers</span>
+                    <span class="bg-blue-50 px-2 py-1 rounded">MIDI</span>
+                </div>
+            </div>
+
+            <!-- Project 4: Indoor Assistant -->
+            <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100 hover:shadow-md transition-all">
+                <h4 class="text-lg font-bold text-slate-900 mb-2">Indoor Assistant for Blind People</h4>
+                <div class="text-sm text-slate-500 italic mb-4">Nov 2023 - Jan 2024 | Developer</div>
+                <p class="text-slate-600 text-sm mb-4">
+                    Developed a system using YOLOv8 and MiDaS to assist visually impaired people in navigating indoors and describing scenery.
+                </p>
+                <div class="flex flex-wrap gap-2 text-xs font-mono text-blue-600">
+                    <span class="bg-blue-50 px-2 py-1 rounded">YOLOv8</span>
+                    <span class="bg-blue-50 px-2 py-1 rounded">MiDaS</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- TEACHING SECTION -->
+    <section id="teaching" class="py-12 px-6 max-w-6xl mx-auto">
+        <h3 class="text-2xl font-bold text-slate-900 mb-8 flex items-center">
+            <div class="w-2 h-8 bg-emerald-600 mr-4 rounded-sm"></div>
+            Teaching
+        </h3>
+        <div class="space-y-10 relative border-l-2 border-slate-200 ml-3 pl-8 py-2">
+            <div class="relative">
+                <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-slate-200 border-4 border-white ring-2 ring-slate-200"></div>
+                <h4 class="text-lg font-bold text-slate-900">Teaching Assistant</h4>
+                <div class="text-emerald-700 font-medium mb-1"><a href="https://usth.edu.vn" target="_blank" rel="noopener noreferrer" class="hover:underline">University of Science and Technology of Hanoi</a></div>
+                <div class="text-sm text-slate-500 mb-3 font-mono">Oct 2024 - Mar 2025</div>
+                <ul class="list-disc list-outside ml-4 text-slate-600 text-sm space-y-1">
+                    <li>Courses: Signals and Systems, NLP.</li>
+                    <li>Prepared exercises and supported student learning.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+        
+        <div class="mt-12 flex justify-center">
+            <!-- CV download link -->
+            <a href="files/TA_CV.pdf" download class="inline-flex items-center px-6 py-3 bg-slate-900 text-white font-medium rounded-full hover:bg-blue-600 transition-all shadow-lg hover:shadow-blue-500/25">
+                <i data-lucide="download" class="w-4 h-4 mr-2"></i>
+                Download Full CV
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-50 border-t border-slate-200 py-12 mt-20">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-slate-500 text-sm">
+            <p>© 2025 Thien An Nguyen. All rights reserved.</p>
+            <div class="flex items-center mt-4 md:mt-0">
+                <i data-lucide="map-pin" class="w-3.5 h-3.5 mr-1"></i> Hanoi, Vietnam
+            </div>
+        </div>
+    </footer>
+
+    <!-- App script -->
+    <script src="script.js" defer></script>
+</body>
+</html>
