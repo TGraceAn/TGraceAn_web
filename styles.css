@@ -5,3 +5,28 @@ html {
 body {
   font-family: sans-serif;
 }
+
+/* Scrollable Updates Container */
+.updates-scroll {
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.updates-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.updates-scroll::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 10px;
+}
+
+.updates-scroll::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+
+.updates-scroll::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
