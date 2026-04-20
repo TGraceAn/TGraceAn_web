@@ -9,7 +9,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     
     <!-- Icons (Lucide) -->
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/lucide@0.576.0/dist/umd/lucide.min.js"></script>
     
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -41,7 +41,7 @@
     <section id="about" class="pt-32 pb-20 px-6 max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center gap-12">
         <div class="flex-1 space-y-6">
             <div>
-                <h2 class="text-blue-600 font-semibold tracking-wide uppercase text-sm mb-2">Profile</h2>
+                <h2 class="text-blue-600 font-semibold tracking-wide uppercase text-sm mb-2">Profile (last updated: Apr 2026)</h2>
                 
                 <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 tracking-tight mb-4">
                     Thien An NGUYEN
@@ -59,7 +59,7 @@
             </div>
             
             <p class="text-slate-600 leading-relaxed text-lg max-w-xl">
-                I am a graduate student pursuing MSc degrees in Data Science at USTH and INP Toulouse. I am also working at eUp Group as an AI Engineer. I love to do research and am passionate about 
+                I am a graduate student pursuing MSc degrees in Data Science at USTH and INP Toulouse. At the moment, I am doing my research thesis on Music Transcription from Audio (AMT). Previously, I worked at eUp Group as an AI Engineer. I love to do research and am passionate about 
                 <strong>Generative Models, Audio/Speech Models, NLP, Computational Creativity, and On-device Models</strong>. 
                 I aim to contribute meaningfully to the academic community while furthering my intellectual growth and professional development.
             </p>
@@ -130,7 +130,8 @@
     <section id="publications" class="pt-24 pb-8 px-6 max-w-6xl mx-auto">
         <h3 class="text-2xl font-bold text-slate-900 mb-8 flex items-center">
             <div class="w-2 h-8 bg-blue-600 mr-4 rounded-sm"></div>
-            Publications
+            <!-- Publications -->
+             Preprints
         </h3>
 
         <div class="group relative bg-white border-l-4 border-blue-600 p-6 rounded-r-2xl shadow-sm hover:shadow-md transition-all duration-300 mb-6">
@@ -168,6 +169,13 @@
     <div class="relative group">
         <div id="updates-container" class="updates-scroll overflow-x-auto pb-2">
             <div class="flex gap-6 min-w-min">
+                <div class="flex-shrink-0 w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-all">
+                    <span class="font-mono text-sm text-blue-600 font-bold block mb-3">Mar 2026</span>
+                    <span class="text-slate-700 text-sm">
+                        Return to La Rochelle University for research thesis on Music Transcription from Audio (AMT) under the supervision of Prof. Sylvain Marchand.
+                    </span>
+                </div>
+
                 <div class="flex-shrink-0 w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-all">
                     <span class="font-mono text-sm text-blue-600 font-bold block mb-3">Jan 2026</span>
                     <span class="text-slate-700 text-sm">
@@ -212,14 +220,27 @@
         </h3>
         <div class="space-y-10 relative border-l-2 border-slate-200 ml-3 pl-8 py-2">
             
-            <!-- Research Job 1 -->
             <div class="relative">
                 <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-white border-4 border-blue-600"></div>
+                <h4 class="text-lg font-bold text-slate-900">Graduate Research Intern</h4>
+                <div class="text-blue-600 font-medium mb-1">
+                    <a href="https://l3i.univ-larochelle.fr" target="_blank" rel="noopener noreferrer" class="hover:underline">L3i Lab - La Rochelle University, France</a>
+                </div>
+                <div class="text-sm text-slate-500 mb-3 font-mono">Apr 2024 - Jul 2024</div>
+                <ul class="list-disc list-outside ml-4 text-slate-600 text-sm space-y-1">
+                    <li>Researched Computational Creativity in Music Generation.</li>
+                    <li>Proposed methods for handling Music Semantics and designed Transformer-based models for Symbolic Music Generation.</li>
+                </ul>
+            </div>
+
+            <!-- Research Job 1 -->
+            <div class="relative">
+                <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-slate-200 border-4 border-white ring-2 ring-slate-200"></div>
                 <h4 class="text-lg font-bold text-slate-900">Research Assistant</h4>
                 <div class="text-blue-600 font-medium mb-1">
                     <a href="https://ictlab.usth.edu.vn" target="_blank" rel="noopener noreferrer" class="hover:underline">ICT Lab - University of Science and Technology of Hanoi</a>
                 </div>
-                <div class="text-sm text-slate-500 mb-3 font-mono">Feb 2025 - <strong>Present</strong></div>
+                <div class="text-sm text-slate-500 mb-3 font-mono">Feb 2025 - Sept 2025</div>
                 <ul class="list-disc list-outside ml-4 text-slate-600 text-sm space-y-1">
                     <li>Working on on-device open-set Keyword Spotting (KWS).</li>
                     <li>Implemented distillation from large models and RL for multi-teacher distillation.</li>
@@ -255,12 +276,12 @@
             
             <!-- Ind Job 1 -->
             <div class="relative">
-                <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-white border-4 border-purple-600"></div>
+                <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-slate-200 border-4 border-white ring-2 ring-slate-200"></div>
                 <h4 class="text-lg font-bold text-slate-900">AI Engineer</h4>
                 <div class="text-purple-600 font-medium mb-1">
                     <a href="https://eupgroup.net" target="_blank" rel="noopener noreferrer" class="hover:underline">eUp Group</a>
                 </div>
-                <div class="text-sm text-slate-500 mb-3 font-mono">Jan 2025 - <strong>Present</strong></div>
+                <div class="text-sm text-slate-500 mb-3 font-mono">Jan 2025 - Mar 2025</div>
                 <ul class="list-disc list-outside ml-4 text-slate-600 text-sm space-y-1">
                     <li>Engineering AI solutions for flagship products Mazii and Migii.</li>
                     <li>Implementing RAG, LLM-based explanations, and on-device translation.</li>
